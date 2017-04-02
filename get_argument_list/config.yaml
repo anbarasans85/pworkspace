@@ -1,0 +1,17 @@
+---
+INPUT:
+  bridge_dom_type: p2mp
+  vc_id: 14762
+  logical_interface:
+    - INTF_1:
+        VPLS_LINT: AT_port_1
+        VPLS_LINT_SUBID: 1
+        VPLS_LINT_TYPE: physical
+    - INTF_2:
+        VPLS_LINT: AT_port_2
+        VPLS_LINT_SUBID: 1
+        VPLS_LINT_TYPE: physical
+  peer_ip:
+    - 2.2.2.1
+    - 2.2.2.2
+  statistics: 1
